@@ -1,0 +1,4 @@
+*.class
+.svn
+.metadata
+dk.brinkler.3d.core/test/.svn
