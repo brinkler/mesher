@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/lwjgl"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/qtjambi"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/dk.brinkler.3d.gl"/>
 	<classpathentry kind="output" path="eclipse-bin"/>
 </classpath>
