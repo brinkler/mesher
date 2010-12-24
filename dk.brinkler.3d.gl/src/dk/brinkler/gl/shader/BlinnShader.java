@@ -3,6 +3,8 @@ package dk.brinkler.gl.shader;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
+import static org.lwjgl.opengl.GL11.glGetError;
+
 import static org.lwjgl.opengl.GL20.GL_FRAGMENT_SHADER;
 import static org.lwjgl.opengl.GL20.GL_VERTEX_SHADER;
 import static org.lwjgl.opengl.GL20.glAttachShader;
@@ -42,6 +44,7 @@ public class BlinnShader extends AbstractShader implements Shader {
 
 		glValidateProgram(blinnProg);
 		glLinkProgram(blinnProg);
+		assert 0 != glGetError();
 		System.out.println("Shader : " + this.toString());
 
 	}
