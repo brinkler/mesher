@@ -1,20 +1,5 @@
 package dk.brinkler.gl.viewer;
 
-import org.lwjgl.LWJGLException;
-import org.lwjgl.opengl.GLContext;
-
-import com.trolltech.qt.core.QTimer;
-import com.trolltech.qt.core.Qt;
-import com.trolltech.qt.gui.QApplication;
-import com.trolltech.qt.gui.QGridLayout;
-import com.trolltech.qt.gui.QIcon;
-import com.trolltech.qt.gui.QLabel;
-import com.trolltech.qt.gui.QPaintEvent;
-import com.trolltech.qt.gui.QPainter;
-import com.trolltech.qt.gui.QWidget;
-import com.trolltech.qt.opengl.QGLFormat;
-import com.trolltech.qt.opengl.QGLWidget;
-
 import dk.brinkler.gl.Renderer;
 
 public class MApe extends QWidget {
