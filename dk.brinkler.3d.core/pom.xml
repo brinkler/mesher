@@ -3,6 +3,13 @@
   <groupId>dk.brinkler.3d.core</groupId>
   <artifactId>dk.brinkler.3d.core</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <repositories>
+  	<repository>
+  		<id>codehaus</id>
+  		<name>codehaus</name>
+  		<url>http://repository.codehaus.org</url>
+  	</repository>
+  </repositories>
   <dependencies>
   	<dependency>
   		<groupId>dk.brinkler.3d.brep</groupId>

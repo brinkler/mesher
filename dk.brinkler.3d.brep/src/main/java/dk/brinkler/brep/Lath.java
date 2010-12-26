@@ -92,7 +92,6 @@ public class Lath implements Comparable<Lath> {
 		}
 	}
 
-	@Override
 	public int compareTo(Lath o) {
 		// compare two refs
 		if( o == this ){

@@ -1,4 +1,6 @@
-*.class
-.svn
-.metadata
-dk.brinkler.3d.core/test/.svn
+\.settings/
+\.metadata/
+target/
+eclipse-bin/
+eclipse-test/
+bin/

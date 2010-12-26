@@ -31,7 +31,6 @@ public class TriFace implements Face {
 	 * 
 	 * @see dk.brinkler.brep.Face#add(dk.brinkler.brep.Edge)
 	 */
-	@Override
 	public TriFace add(Lath l) {
 		return this;
 	}
@@ -41,7 +40,6 @@ public class TriFace implements Face {
 	 * 
 	 * @see dk.brinkler.brep.Face#remove(dk.brinkler.brep.Edge)
 	 */
-	@Override
 	public TriFace remove(Lath e) {
 		if( Arrays.asList(laths).contains(e) ){
 			laths[Arrays.asList(laths).indexOf(e)] = null;
@@ -54,7 +52,6 @@ public class TriFace implements Face {
 	 * 
 	 * @see java.lang.Iterable#iterator()
 	 */
-	@Override
 	public Iterator<Lath> iterator() {
 		return Arrays.asList(laths).iterator();
 	}
