@@ -4,46 +4,19 @@
 	<groupId>dk.brinkler.3d.gl</groupId>
 	<artifactId>dk.brinkler.3d.gl</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<!--<build>
+	<build>
 		<plugins>
 			<plugin>
-				<groupId>net.sf.qtjambi</groupId>
-				<artifactId>qtjambi-maven-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>qtjambi</id>
-						<goals>
-							<goal>generate</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					 Specifies where sources are. This parameter is MANDATORY 
-					<sourcesDir>src/main/java</sourcesDir>
-					 following parameters aren't mandatory, they use defaults as specified 
-						here if not specified <translationsDir>src/main/resources/translations</translationsDir> 
-						<destinationDir>target/generated-sources/qtjambi</destinationDir> 
-					 cause -noobsolete switch for lupdate 
-					<noObsoleteTranslations>true</noObsoleteTranslations>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+		        <configuration>
+					<source>1.6</source>
+          			<target>1.6</target>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
 
-	--><repositories>
-		<repository>
-            <id>qtjambi</id>
-            <name>qtjambi</name>
-            <url>http://qtjambi.sourceforge.net/maven2/</url>
-        </repository>
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-            <id>qtjambi</id>
-            <name>qtjambi</name>
-            <url>http://qtjambi.sourceforge.net/maven2/</url>
-        </pluginRepository>
-	</pluginRepositories>
 	<dependencies>
 		<dependency>
 			<groupId>org.lwjgl.util</groupId>
@@ -57,13 +30,6 @@
 			<artifactId>org.lwjgl.opengl</artifactId>
 			<version>2.6.0</version>
 			<type>jar</type>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>net.sf.qtjambi</groupId>
-			<artifactId>qtjambi</artifactId>
-			<version>4.7.0</version>
-			<type>jar.lastUpdated</type>
 			<scope>compile</scope>
 		</dependency>
 	</dependencies>

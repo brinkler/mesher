@@ -91,7 +91,6 @@ public class BlinnShader extends AbstractShader implements Shader {
 		return args;
 	}
 
-	@Override
 	public int program() {
 		return blinnProg;
 	}

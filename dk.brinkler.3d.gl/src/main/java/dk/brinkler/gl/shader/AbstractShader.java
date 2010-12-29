@@ -20,7 +20,6 @@ import static org.lwjgl.opengl.GL20.glGetProgram;
  * 
  */
 public abstract class AbstractShader implements Shader {
-	@Override
 	public String[] arguments() {
 		return new String[] {};
 	}
@@ -33,7 +32,6 @@ public abstract class AbstractShader implements Shader {
 		return "AbstractShader [" + shaderType + "]\n";
 	}
 
-	@Override
 	abstract public ByteBuffer fragmentShader();
 
 	/**
@@ -106,7 +104,6 @@ public abstract class AbstractShader implements Shader {
 		return createByteBuffer;
 	}
 
-	@Override
 	abstract public ByteBuffer vertexShader();
 
 	abstract protected void vertexShader(ByteBuffer vertexShader);

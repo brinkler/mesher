@@ -1,27 +1,37 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>dk.brinkler.3d.brep</groupId>
-  <artifactId>dk.brinkler.3d.brep</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>Brinkler Brep</name>
-  <description>BREP</description>
-  <build>
-  	<plugins>
-  	</plugins>
-  </build>
-  <dependencies>
-  	<dependency>
-  		<groupId>javax.vecmath</groupId>
-  		<artifactId>javax.vecmath</artifactId>
-  		<version>1.5.2</version>
-  		<type>jar</type>
-  		<scope>compile</scope>
-  	</dependency>
-  </dependencies>
-  <dependencyManagement>
-  	<dependencies>
-  	</dependencies>
-  </dependencyManagement>
-  <modules>
-  </modules>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>dk.brinkler.3d.brep</groupId>
+	<artifactId>dk.brinkler.3d.brep</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Brinkler Brep</name>
+	<description>BREP</description>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+		        <configuration>
+					<source>1.6</source>
+          			<target>1.6</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>javax.vecmath</groupId>
+			<artifactId>javax.vecmath</artifactId>
+			<version>1.5.2</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8.2</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
 </project>
