@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=vecmath.jar -DgroupId=vecmath -DartifactId=vecmath -Dversion=1.5.2 -Dpackaging=jar
