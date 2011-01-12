@@ -19,22 +19,6 @@
 		</plugins>
 	</build>
 
-	<repositories>
-		<repository>
-			<id>qtjambi</id>
-			<name>qtjambi</name>
-			<url>http://qtjambi.sourceforge.net/maven2/</url>
-		</repository>
-	</repositories>
-
-	<pluginRepositories>
-		<pluginRepository>
-			<id>qtjambi</id>
-			<name>qtjambi</name>
-			<url>http://qtjambi.sourceforge.net/maven2/</url>
-		</pluginRepository>
-	</pluginRepositories>
-
 	<dependencies>
 		<dependency>
 			<groupId>dk.brinkler.3d.gl</groupId>
@@ -42,11 +26,6 @@
 			<version>0.0.1-SNAPSHOT</version>
 			<type>jar</type>
 			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>net.sf.qtjambi</groupId>
-			<artifactId>qtjambi</artifactId>
-			<version>4.5.2_01</version>
 		</dependency>
 	</dependencies>
 </project>
